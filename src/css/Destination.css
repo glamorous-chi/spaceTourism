@@ -107,15 +107,9 @@
         margin-left: 100px
     }
 
-    .image-div-tab {
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .tab-image {
         padding-top: 50px;
     }
-
 
     .top-text {
         text-align: left;
@@ -151,6 +145,9 @@
 
     .time-div {
         margin-left: 100px;
+    }
+    .distance-div {
+        margin-bottom: 0px;
     }
 
 }

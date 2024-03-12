@@ -10,8 +10,8 @@ const DestinationCard = ({ planet }) => {
             <div className="tablet-div ">
                     <div className="text-light tab-div"><span className='top-text'><span className='text-secondary'>01</span>   PICK YOUR DESTINATION </span> </div>
 
-                    <div className="image-div-tab my-4">
-                        <img src={planet.image} alt="image of a planet" width="" height="" />
+                    <div className="tab-image my-4">
+                        <img src={planet.image} alt="image of a planet" width="350px" height="350px" />
                     </div>
                 </div>
                 <div className="mob-div ">
