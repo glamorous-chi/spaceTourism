@@ -7,7 +7,7 @@ const DestinationCard = ({ planet }) => {
 
         <div>
             <div className="dest-div">
-            <div className="tablet-div ">
+                <div className="tablet-div ">
                     <div className="text-light tab-div"><span className='top-text'><span className='text-secondary'>01</span>   PICK YOUR DESTINATION </span> </div>
 
                     <div className="tab-image my-4">
@@ -21,7 +21,7 @@ const DestinationCard = ({ planet }) => {
                         <img src={planet.image} alt="image of a planet" width="160px" height="160px" />
                     </div>
                 </div>
-                
+
 
                 <div className="d-flex flex-column justify-content-center align-items-center">
                     <div className="list-div">
