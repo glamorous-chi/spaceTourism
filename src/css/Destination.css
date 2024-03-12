@@ -17,23 +17,28 @@
     justify-content: center;
     align-items: center;
 }
-.mob-div{
+
+.mob-div {
     display: block;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.tablet-div{
+
+.tablet-div {
     display: none;
 }
+
 .under-line.active {
     border-bottom: 1px solid white !important;
 }
+
 .under-line:hover {
     border-bottom: 1px solid white !important;
 }
-.image-div{
+
+.image-div {
     width: 160px;
     height: 160px;
 }
@@ -62,13 +67,16 @@
     font-size: 1.7rem;
     font-family: "Ubuntu";
 }
-.planet-desktop-div{
+
+.planet-desktop-div {
     display: none;
 }
-.desktop-top-div span{
+
+.desktop-top-div span {
     display: none;
 }
-.distance-div{
+
+.distance-div {
     margin-bottom: 15px;
 }
 
@@ -81,54 +89,68 @@
         display: block;
         position: static;
     }
-    .desktop-top-div{
+
+    .desktop-top-div {
         display: none !important;
     }
-    .mob-div{
+
+    .mob-div {
         display: none
     }
-    .tablet-div{
+
+    .tablet-div {
         display: block;
-        width:100%;
+        width: 100%;
         display: flex;
         justify-content: flex-start;
         margin-top: 60px;
         margin-left: 100px
     }
-    .image-div{
-        width: 300px; 
-        height: 300px; 
+
+    .image-div-tab {
+        width: 300px;
+        height: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 50px; 
-}
-    .top-text{
+        padding-top: 50px;
+    }
+
+
+    .top-text {
         text-align: left;
     }
-    .list-div{
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    .list-div {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .list-div li{
-    font-size: 1.3rem
+
+    .list-div li {
+        font-size: 1.3rem
     }
-    .planet-div h1{
+
+    .planet-div h1 {
         font-size: 5rem;
     }
-    .desc-div span{
+
+    .desc-div span {
         font-size: 1.17rem;
     }
-    .line-break{
-        display: none;;
+
+    .line-break {
+        display: none;
+        ;
     }
-    .below-text{
-        margin-top: 100px ;
-       }
-    .time-div{
-margin-left: 100px;
+
+    .below-text {
+        margin-top: 100px;
+    }
+
+    .time-div {
+        margin-left: 100px;
     }
 
 }
@@ -143,57 +165,67 @@ margin-left: 100px;
         position: static;
     }
 
-    .dest-div{
+    .dest-div {
         display: none !important;
     }
 
-    .planet-desktop-div{
+    .planet-desktop-div {
         display: block !important;
         display: flex !important;
         width: 100%;
         padding-top: 60px;
     }
-    .sub-div{
+
+    .sub-div {
         width: 50%;
     }
-    .planets-div{
+
+    .planets-div {
         width: 50%;
-       
+
     }
-    .image-div-dest{
+
+    .image-div-dest {
         margin-left: 100px;
     }
-    .desktop-top-div{
+
+    .desktop-top-div {
         display: flex;
         display: block !important;
         padding-top: 140px;
         margin-left: 130px;
     }
-    .list-div li{
+
+    .list-div li {
         font-family: var(--familyOne);
     }
-    .down-below-div h1{
+
+    .down-below-div h1 {
         font-size: 3.5rem;
     }
-    .down-below-div span{
+
+    .down-below-div span {
         font-size: 1rem;
     }
-    .line-break{
+
+    .line-break {
         width: 60%;
     }
-    
-    .below-text h5{
+
+    .below-text h5 {
         font-size: 0.9rem;
         font-family: var(--familyOne);
     }
-    .below-text h2{
-        font-size: 1.5rem;  
+
+    .below-text h2 {
+        font-size: 1.5rem;
     }
-    .desktop-top-div span{
+
+    .desktop-top-div span {
         display: block;
         display: flex;
-       font-size: 1.2rem;
-       font-family: var(--familyOne);
-        
+        font-size: 1.2rem;
+        font-family: var(--familyOne);
+
     }
 }
