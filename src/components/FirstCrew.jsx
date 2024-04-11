@@ -6,7 +6,7 @@ import "../css/MobileNav.css"
 import { useParams } from 'react-router-dom'
 
 const FirstCrew = () => {
-
+console.log(crew);
   const { crewId } = useParams()
   const crew_members = crew.find((crews) => crews.id === crewId)
   return (

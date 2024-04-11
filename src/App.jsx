@@ -8,9 +8,6 @@ import NavBar from "./components/Nav"
 import MobileNav from "./components/MobileNav"
 import Crew from './pages/Crew'
 
-
-
-
 function App() {
 
   return (

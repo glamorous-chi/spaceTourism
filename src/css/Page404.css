@@ -1,0 +1,26 @@
+.main-div{
+    display: none!important;
+}
+.error-div{
+    height: 100vh;
+}
+.error-div h1{
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+    padding: 0px 23px 0px 0px;
+    font-size: 24px;
+    font-weight: 500;
+    vertical-align: top;
+    line-height: 49px;
+}
+.line-div{
+    height:40px;
+    border-left: 1px solid rgb(168, 165, 165);
+}
+.error-div h2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 49px;
+    margin: 0px ;
+    display: inline-block;
+}

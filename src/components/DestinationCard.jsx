@@ -1,6 +1,7 @@
 import React from 'react'
 import "../css/Destination.css"
 import { NavLink } from 'react-router-dom'
+import LazyLoad from 'react-lazy-load'
 
 const DestinationCard = ({ planet }) => {
     return (
@@ -9,17 +10,21 @@ const DestinationCard = ({ planet }) => {
             <div className="dest-div">
                 <div className="tablet-div ">
                     <div className="text-light tab-div"><span className='top-text'><span className='text-secondary'>01</span>   PICK YOUR DESTINATION </span> </div>
+                    <LazyLoad>
+                        <div className="tab-image my-4">
+                            <img src={planet.image} alt="image of a planet" width="350px" height="350px" />
+                        </div>
+                    </LazyLoad>
 
-                    <div className="tab-image my-4">
-                        <img src={planet.image} alt="image of a planet" width="350px" height="350px" />
-                    </div>
                 </div>
                 <div className="mob-div ">
                     <div className="text-light"><span className='top-text'><span className='text-secondary'>01</span>   PICK YOUR DESTINATION </span> </div>
+                    <LazyLoad>
+                        <div className="image-div my-4">
+                            <img src={planet.image} alt="image of a planet" width="160px" height="160px" />
+                        </div>
+                    </LazyLoad>
 
-                    <div className="image-div my-4">
-                        <img src={planet.image} alt="image of a planet" width="160px" height="160px" />
-                    </div>
                 </div>
 
 
@@ -63,9 +68,12 @@ const DestinationCard = ({ planet }) => {
             <div className="text-light desktop-top-div"><span className='top-text'><span className='text-secondary me-md-3'>01</span>   PICK YOUR DESTINATION </span> </div>
             <div className="planet-desktop-div">
                 <div className="sub-div">
-                    <div className="image-div-dest my-2">
-                        <img src={planet.image} alt="image of a planet" width="300px" height="300px" />
-                    </div>
+                    <LazyLoad>
+                        <div className="image-div-dest my-2">
+                            <img src={planet.image} alt="image of a planet" width="300px" height="300px" />
+                        </div>
+                    </LazyLoad>
+
                 </div>
 
                 <div className="planets-div">
